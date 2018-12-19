@@ -1,6 +1,6 @@
 ## ECPred_nh Version 1.0
  
- [![Latest Github release](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/cansyl/ECPred/releases/latest)
+ [![Latest Github release](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/cansyl/ECPred_nh/releases/latest)
 
 ## Dependencies
 
