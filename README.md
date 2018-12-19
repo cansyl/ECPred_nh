@@ -59,54 +59,24 @@ or <br />
 These bash scripts will install necessary libraries and tools.
 
 ## Usage
-## Dependencies
-6
-​
-7
-#### Java 8  
-8
-​
-9
-For Linux, you can install latest version of Java by running following commands from terminal:
-10
+
+Run the following command on terminal to analyze the file "filename.fasta"  <br />
 ```
-11
-sudo apt-get update
-12
-sudo apt-get install default-jre
-13
-sudo apt-get install default-jdk
-14
+java -jar ECPred.jar method inputFile libraryDir tempDir outputFile
 ```
-15
-For Mac, you can install latest version of Java by running following commands from terminal:
-16
-```
-17
-brew update
-18
-brew cask install java
-19
-```
-20
-​
-21
-#### g++ (any version)  
-22
-​
-23
-For Linux, you can install latest version of g++ by running following commands from terminal
-24
-```
-25
-sudo apt-get update
-26
-sudo apt-get install build-essential
-27
-```
-28
-For Mac, you can install g++ by running following command from term
-Output is optinal. If you don't specify the output file name the results will be printed to standard output.
+method argument can be one of the followings: blast, spmap, pepstats, weighted.<br />
+inputFile argument is the file that contains that you want to predict.<br />
+libraryDir argument is the directory where the "lib" folder is located.<br />
+tempDir argument is the directory where the chunk files are located. You may delete the files under this directory after a couple of runs.<br />
+outputFile argument is optional. If you don't specify the output file name the results will be printed to standard output.
+
+
+## Input
+
+There is no limit on the number of protein sequences, however, one protein is predicted in one minute on average on the i7-6820HQ processor.
+
+## Output
+
 
 ## Data files
 
