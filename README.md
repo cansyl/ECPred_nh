@@ -59,20 +59,54 @@ or <br />
 These bash scripts will install necessary libraries and tools.
 
 ## Usage
-
-Run the following command on terminal to analyze the file "filename.fasta"  <br />
+## Dependencies
+6
+​
+7
+#### Java 8  
+8
+​
+9
+For Linux, you can install latest version of Java by running following commands from terminal:
+10
 ```
-java -jar ECPred.jar filename.fasta
+11
+sudo apt-get update
+12
+sudo apt-get install default-jre
+13
+sudo apt-get install default-jdk
+14
 ```
-## Input
-
-ECPred accepts one input fasta file which may contain up to 20 proteins.
-
-## Output
-
-"predictionResults_filename_Date-Time.tsv": <br />
-
-A tsv file that contains the main, subfamily, sub-subfamily and substrate class predictions together with confidence scores for each prediction; alternatively, the output can be “non-enzyme” or “no prediction”.
+15
+For Mac, you can install latest version of Java by running following commands from terminal:
+16
+```
+17
+brew update
+18
+brew cask install java
+19
+```
+20
+​
+21
+#### g++ (any version)  
+22
+​
+23
+For Linux, you can install latest version of g++ by running following commands from terminal
+24
+```
+25
+sudo apt-get update
+26
+sudo apt-get install build-essential
+27
+```
+28
+For Mac, you can install g++ by running following command from term
+Output is optinal. If you don't specify the output file name the results will be printed to standard output.
 
 ## Data files
 
@@ -84,7 +118,7 @@ A text file containing the list of EC numbers that ECPred can predict.  <br />
 
 An example input fasta file.  <br />
 
-"predictionResults_sample_20180712-154729.tsv":  <br />
+"predictionResults.tsv":  <br />
 
 An example output prediction file (for sample.fasta).
 
@@ -102,4 +136,5 @@ You should have received a copy of the GNU General Public License along with thi
 If you find ECPred useful, please consider citing our publication:
 
 Dalkiran, A., Rifaioglu, A. S., Martin, M. J., Cetin-Atalay, R., Atalay, V., & Doğan, T. (2018). ECPred: a tool for the prediction of the enzymatic functions of protein sequences based on the EC nomenclature. *BMC bioinformatics, 19*(1), 334. https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2368-y
+
 
