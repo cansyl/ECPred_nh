@@ -73,7 +73,7 @@ outputFile argument is optional. If you don't specify the output file name the r
 
 ## Input
 
-There is no limit on the number of protein sequences, however, one protein is predicted in one minute on average on the i7-6820HQ processor.
+There is no limit on the number of protein sequences, however, one protein is predicted in 9 minutes on average on the i7-6820HQ processor.
 
 ## Output
 
