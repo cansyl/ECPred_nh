@@ -77,6 +77,7 @@ There is no limit on the number of protein sequences, however, one protein is pr
 
 ## Output
 
+Output is optinal. If you don't specify the output file name the results will be printed to standard output.
 
 ## Data files
 
