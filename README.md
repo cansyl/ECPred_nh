@@ -1,4 +1,4 @@
-## ECPred_nh Version 1.0
+## ECPred_woH Version 1.0
  
  [![Latest Github release](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/cansyl/ECPred_nh/releases/latest)
 
@@ -61,7 +61,7 @@ These bash scripts will install necessary libraries and tools.
 ## Usage
 
 ```
-java -jar ECPred.jar method inputFile libraryDir tempDir outputFile
+java -jar ECPred_woH.jar method inputFile libraryDir tempDir outputFile
 ```
 ```method ``` argument can be one of the following: blast, spmap, pepstats, weighted<br />
 ```inputFile```  argument is the file that contains protein sequences in fasta format<br />
@@ -71,7 +71,7 @@ java -jar ECPred.jar method inputFile libraryDir tempDir outputFile
 
 Sample run <br />
 ```
-java -jar ECPred.jar weighted test.fasta /Desktop/ECPred/ temp/ results.tsv
+java -jar ECPred_woH.jar weighted test.fasta /Desktop/ECPred/ temp/ results.tsv
 ```
 
 
