@@ -1,6 +1,8 @@
 ## ECPred_woH Version 1.0
  
  [![Latest Github release](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/cansyl/ECPred_nh/releases/latest)
+ 
+ECPred_withoutHierarchy (ECPred_woH) is the ECPred version which does not consider the hierarchical relations of the EC numbers. Hence all of the EC number predictions which satisfy the cut-off values are given as output. 
 
 ## Dependencies
 
